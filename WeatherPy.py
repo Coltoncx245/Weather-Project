@@ -62,9 +62,8 @@ while exit_statement:
     except KeyError:
         print('Input Error! Try Again:\n')
         continue
-
-    print(response)
-    #  ^ un-comment to output raw JSON data
+    # print(data)
+    # ^ un-comment for raw JSON data
     print(f"\nHere's the weather in {location}:\n")
     print(f'\nIt is currently {temp} degrees fahrenheit,')
     print(f'Feels Like: {feels_like}')
